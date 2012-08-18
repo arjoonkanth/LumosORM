@@ -1,9 +1,14 @@
 <?php
+
 /**
- * @Author arjoonkanth <arjoonkanth@gmail.com>
- * @Copyright 2012 <arjoonkanth@gmail.com>
- * Easy to Use Micro ORM - LumosORM
+ * An Easy to use ORM starter - LumosORM
+ *
+ * @author arjoonkanth <arjoonkanth@gmail.com>
+ * @version 1.0.0
+ * @copyright 2012 : arjoonkanth 
+ * 
  */
+
 
 class Lumos extends databaseConnection {
 	private static $_query;
@@ -53,7 +58,7 @@ class Lumos extends databaseConnection {
 	}
 
 	//To remove the database stripslashes issue
-	function quote2entities($value) {
+	static function quote2entities($value) {
 		if (get_magic_quotes_gpc()) {
 			$value = stripslashes($value);
 		} else {
