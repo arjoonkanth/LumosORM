@@ -1,6 +1,5 @@
 # LumosORM #
 
-
 An Easy to use ORM starter - LumosORM
 
 ## Basic QUERY ##
@@ -8,7 +7,3 @@ An Easy to use ORM starter - LumosORM
 	#Find by query
 	$query = 'SELECT * FROM databasename';
 	$results = Lumos::query($query);
-	
-	#Insert query
-	$query = 'SELECT * FROM databasename';
-	$results = Lumos::Insert($query);
