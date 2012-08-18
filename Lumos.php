@@ -5,7 +5,7 @@
  *
  * @author arjoonkanth <arjoonkanth@gmail.com>
  * @version 1.0.0
- * @copyright 2012 : arjoonkanth 
+ * @copyright arjoonkanth 2012 
  * 
  */
 
